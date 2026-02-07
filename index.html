@@ -273,7 +273,64 @@
 .link-box.career-networking a.resource-link:hover {
     background-color: #99f6e4;
 }
+  
+  
+  
+ /* Non-clickable AI tips */
+.ai-tip {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #e2e8f0;
+    background: #f8fafc;
+    font-size: 0.8rem;
+}
+
+.ai-tip i {
+    margin-top: 2px;
+    color: var(--secondary);
+}
+
+.ai-tip span {
+    color: var(--text-muted);
+    font-size: 0.75rem;
+    display: block;
+    margin-top: 4px;
+}
+ 
+  
+  /* =========================================
+   FULL-WIDTH CALCULATOR SECTION
+   ========================================= */
+
+.full-width-section {
+    background: #e5eaf0;
+    padding: 50px 20px;
+    margin-top: 60px;
+}
+
+.full-width-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.calculator-panel {
+    background: var(--white);
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+  
 </style>
+  
+  
+
+<!-------------------------------------------------------------------------------------- HTML ------->  
+  
+  
 </head>
 <body>
 <header>
@@ -285,13 +342,18 @@
 <div class="important-note">
 <h3><i class="fas fa-lightbulb"></i> Critical Advice for Applicants</h3>
 <p><strong>Apply for EVERY job</strong> that you find interesting, even if YOU think you are not qualified. YOU are not qualified to know if YOU are qualified for a job! <strong></strong></p>
-<ul style="padding-left: 20px; font-size: 0.95rem;">
-<li>Approx 60% of jobs are NOT advertised. Check directly with the company websites below.</li>
+<ul style="padding-left: 20px;">
+<li>Approx 60% of jobs are NOT advertised. Contact the company you want a job with directly if nothing is listed.</li>
 <li>On average, employers take 30 seconds to review resumes. Construct your so it gets you into the 'call for interview' pile.</li>
 </ul>
 </div>
+  
 <div class="grid">
-<div>
+
+
+<!------------------------------------------------------------------------Job Search Boards ------->  
+  
+  <div>
 <h3><i class="fas fa-search"></i> Job Search Boards</h3>
 <div class="btn-group">
 <a class="btn" href="https://www.careerbeacon.com" target="_blank">Career Beacon</a>
@@ -304,16 +366,19 @@
 </div>
 <div>
 <h3><i class="fas fa-compass"></i> Search Tips</h3>
-<ul style="padding-left: 20px; font-size: 0.95rem;">
+<ul style="padding-left: 20px;">
 <li>Set location to <strong>"Newfoundland &amp; Labrador"</strong> or <strong>"Canada"</strong>.</li>
 <li>Reach out directly to smaller firms with your portfolio.</li>
-<li>Connect with alumni on LinkedIn to find the hidden job market.</li>
+<li>Connect with alumni on  <b> LinkedIn </b>  to find the hidden job market.</li>
 <li>Search with keyords like, "autocad", "marine" "designer", "naval architect", "piping". "systems", "shipyard", etc.</li>
 </ul>
 </div>
 </div>
 </div>
-<!-- Links and Resources Section -->
+
+  
+  
+  <!-------------------------------------------------------------- Links and Resources Section -->
 <div class="links-grid-container">
 <!-- Industry Publications & News -->
 <div class="link-box industry-news">
@@ -328,7 +393,11 @@
 <a class="resource-link" href="http://www.motorship.com" target="_blank"><i class="fas fa-external-link-alt"></i> motorship.com</a>
 </div>
 </div>
-<!-- Career Networking -->
+  
+  
+<!------------------------------------------------------------------------ Career Networking -->
+  
+  
 <div class="link-box career-networking">
 <h3 style="color: var(--primary); margin-top:0;"><i class="fas fa-users"></i> Career Networking</h3>
 <div class="link-list">
@@ -338,7 +407,19 @@
 <a class="resource-link" href="http://www.augi.com" target="_blank"><i class="fas fa-id-card"></i> AutoCAD Users (AUGI)</a>
 </div>
 </div>
-</div><div class="links-grid-container"><div class="link-box"><h2 class="section-title"> <i class="fas fa-ship"></i> Design, Engineering &amp; Operations</h2><div class="table-container">
+</div>
+  
+
+  
+  
+  
+<!------------------------------------------------------------------Design, Engineering & Operations------->
+  
+  <div class="links-grid-container">
+    <div class="link-box">
+      <h3> <i class="fas fa-ship"></i> Design, Engineering &amp; Operations</h3>
+
+<div class="table-container">
 <table>
 <thead>
 <tr>
@@ -349,66 +430,351 @@
 </thead>
 <tbody><tr><td><a class="company-link" href="https://www.eagle.org/eagleExternalPortalWEB/" target="_blank">ABS - American Bureau of Shipping <i class="fas fa-external-link-alt"></i></a></td><td><span class="tag tag-orange">Regulatory Body</span></td><td>Worldwide</td></tr><tr><td><a class="company-link" href="https://ams-ink.ca/company/careers/" target="_blank">Adaptive Marine Solutions Inc. <i class="fas fa-external-link-alt"></i></a></td><td><span class="tag tag-blue">Engineering / Design</span></td><td>St. John's</td></tr><tr><td><a class="company-link" href="https://www.akersolutions.com/" target="_blank">Aker Solutions <i class="fas fa-external-link-alt"></i></a></td><td><span class="tag tag-blue">Engineering / Design</span></td><td>St. John's, Worldwide</td></tr><tr><td><a class="company-link" href="https://www.aon.com" target="_blank">Aon <i class="fas fa-external-link-alt"></i></a></td><td><span class="tag tag-blue">Engineering / Design</span></td><td>Worldwide</td></tr><tr><td><a class="company-link" href="https://www.atkinsrealis.com" target="_blank">AtkinsRéalis <i class="fas fa-external-link-alt"></i></a></td><td><span class="tag tag-blue">Engineering / Design</span></td><td>Montreal, Worldwide</td></tr><tr><td><a class="company-link" href="https://www.atlantictowing.com" target="_blank">Atlantic Towing <i class="fas fa-external-link-alt"></i></a></td><td><span class="tag tag-brown">Shipping / Operations</span></td><td>St. John's</td></tr><tr><td><a class="company-link" href="https://www.cahill.ca" target="_blank">Cahill Group of Companies <i class="fas fa-external-link-alt"></i></a></td><td><span class="tag tag-blue">Engineering / Field</span></td><td>St. John's, Worldwide</td></tr><tr><td><a class="company-link" href="http://www.ccg-gcc.gc.ca/eng/CCG/Home" target="_blank">Canadian Coast Guard <i class="fas fa-external-link-alt"></i></a></td><td><span class="tag tag-orange">Regulatory Body</span></td><td>St. John's, Canadawide</td></tr><tr><td><a class="company-link" href="http://www.canship.com/Cul/index.html" target="_blank">Canship Ugland Ltd <i class="fas fa-external-link-alt"></i></a></td><td><span class="tag tag-brown">Shipping / Operations</span></td><td>Paradise, NL</td></tr><tr><td><a class="company-link" href="https://www.cenovus.com" target="_blank">Cenovus Energy <i class="fas fa-external-link-alt"></i></a></td><td><span class="tag tag-blue">Engineering / Design</span></td><td>Calgary, Worldwide</td></tr><tr><td><a class="company-link" href="https://dukesmartstaffing.ca/career-portal/" target="_blank">Duke Smart Staffing Solutions <i class="fas fa-external-link-alt"></i></a></td><td><span class="tag tag-blue">Engineering / Design</span></td><td>St. John's, Worldwide</td></tr><tr><td><a class="company-link" href="https://www.fleetway.ca" target="_blank">Fleetway Inc. <i class="fas fa-external-link-alt"></i></a></td><td><span class="tag tag-blue">Engineering / Design</span></td><td>St. John's, Halifax</td></tr><tr><td><a class="company-link" href="https://www.gea.com" target="_blank">GEA Group <i class="fas fa-external-link-alt"></i></a></td><td><span class="tag tag-blue">Engineering / Field / Vendor</span></td><td>Worldwide</td></tr><tr><td><a class="company-link" href="https://genoadesign.com" target="_blank">Genoa Design International <i class="fas fa-external-link-alt"></i></a></td><td><span class="tag tag-blue">Engineering / Design</span></td><td>Mt. Pearl, NL</td></tr><tr><td><a class="company-link" href="http://hatch.ca/" target="_blank">Hatch <i class="fas fa-external-link-alt"></i></a></td><td><span class="tag tag-blue">Engineering / Design</span></td><td>St. John's, Worldwide</td></tr><tr><td><a class="company-link" href="http://www.houston-offshore.com/" target="_blank">Houston Offshore Engineering <i class="fas fa-external-link-alt"></i></a></td><td><span class="tag tag-blue">Engineering / Design</span></td><td>Houston, TX</td></tr><tr><td><a class="company-link" href="http://www.jamestownmetal.com/main.html" target="_blank">Jamestown Metal Marine Sales, Inc. <i class="fas fa-external-link-alt"></i></a></td><td><span class="tag tag-blue">Engineering / Design</span></td><td>Boca Raton, FL</td></tr><tr><td><a class="company-link" href="http://www.kcadeutag.com/" target="_blank">KCA Deutag Drilling <i class="fas fa-external-link-alt"></i></a></td><td><span class="tag tag-blue">Engineering / Field</span></td><td>Worldwide</td></tr><tr><td><a class="company-link" href="https://www.lr.org" target="_blank">Lloyd's Register <i class="fas fa-external-link-alt"></i></a></td><td><span class="tag tag-orange">Regulatory Body</span></td><td>St. John's, Worldwide</td></tr><tr><td><a class="company-link" href="https://www.marineatlantic.ca" target="_blank">Marine Atlantic Inc <i class="fas fa-external-link-alt"></i></a></td><td><span class="tag tag-brown">Shipping / Operations</span></td><td>St. John's</td></tr><tr><td><a class="company-link" href="http://www.mckeil.com/?gclid=CKrVq7jgmb0CFSISMwodG0EA-A" target="_blank">McKeil Marine Limited <i class="fas fa-external-link-alt"></i></a></td><td><span class="tag tag-brown">Shipping / Operations</span></td><td>St. John's</td></tr><tr><td><a class="company-link" href="http://www.metalcraftmarine.com/" target="_blank">Metalcraft Marine Inc. <i class="fas fa-external-link-alt"></i></a></td><td><span class="tag tag-blue">Engineering / Design</span></td><td>Kingston, ON</td></tr><tr><td><a class="company-link" href="http://www.modis.com/" target="_blank">Modis <i class="fas fa-external-link-alt"></i></a></td><td><span class="tag tag-cyan">Recruitment</span></td><td>Worldwide</td></tr><tr><td><a class="company-link" href="http://www.oceaneering.com/" target="_blank">Oceaneering Canada Ltd. <i class="fas fa-external-link-alt"></i></a></td><td><span class="tag tag-blue">Engineering / Field</span></td><td>St. John's, Worldwide</td></tr><tr><td><a class="company-link" href="http://www.oceanex.com/" target="_blank">Oceanex <i class="fas fa-external-link-alt"></i></a></td><td><span class="tag tag-brown">Shipping / Operations</span></td><td>St. John's</td></tr><tr><td><a class="company-link" href="http://www.orsi.ca/" target="_blank">Offshore Recruiting Services Inc. <i class="fas fa-external-link-alt"></i></a></td><td><span class="tag tag-cyan">Recruitment</span></td><td>St. John's</td></tr><tr><td><a class="company-link" href="http://www.pennecon.com/energy/" target="_blank">Pennecon Energy - M&amp;M Offshore <i class="fas fa-external-link-alt"></i></a></td><td><span class="tag tag-blue">Engineering / Field</span></td><td>St. John's</td></tr><tr><td><a class="company-link" href="http://www.ral.ca/" target="_blank">Robert Allan Ltd. <i class="fas fa-external-link-alt"></i></a></td><td><span class="tag tag-blue">Engineering / Design</span></td><td>Vancouver, BC    </td></tr><tr><td><a class="company-link" href="http://www.rolls-royce.com/northamerica/na/about/canada/" target="_blank">Rolls-Royce Canada Limited <i class="fas fa-external-link-alt"></i></a></td><td><span class="tag tag-blue">Engineering / Field / Vendor</span></td><td>St. John's, Worldwide</td></tr><tr><td><a class="company-link" href="http://www.slb.com/" target="_blank">Schlumberger <i class="fas fa-external-link-alt"></i></a></td><td><span class="tag tag-blue">Engineering / Field</span></td><td>St. John's, Worldwide</td></tr><tr><td><a class="company-link" href="http://www.stantec.com/" target="_blank">Stantec Consulting Ltd <i class="fas fa-external-link-alt"></i></a></td><td><span class="tag tag-cyan">Recruitment</span></td><td>Worldwide</td></tr><tr><td><a class="company-link" href="http://www.subsea7.com/en/index.html" target="_blank">Subsea 7 Canada Inc. <i class="fas fa-external-link-alt"></i></a></td><td><span class="tag tag-blue">Engineering / Field</span></td><td>St. John's, Worldwide</td></tr><tr><td><a class="company-link" href="http://www.technip.com/en" target="_blank">Technip Canada Ltd <i class="fas fa-external-link-alt"></i></a></td><td><span class="tag tag-blue">Engineering / Field</span></td><td>St. John's, Worldwide</td></tr><tr><td><a class="company-link" href="https://tc.canada.ca" target="_blank">Transport Canada <i class="fas fa-external-link-alt"></i></a></td><td><span class="tag tag-orange">Regulatory Body</span></td><td>St. John's, Canadawide</td></tr><tr><td><a class="company-link" href="http://www.groupedesgagnes.com/en/home/26.aspx" target="_blank">Transport Desgagnés Inc. <i class="fas fa-external-link-alt"></i></a></td><td><span class="tag tag-brown">Shipping / Operations</span></td><td>Canadawide</td></tr><tr><td><a class="company-link" href="http://www.trinavgroup.com/" target="_blank">TriNav Group of Companies <i class="fas fa-external-link-alt"></i></a></td><td><span class="tag tag-blue">Engineering / Design</span></td><td>St. John's</td></tr><tr><td><a class="company-link" href="http://upsideeng.com/" target="_blank">Upside Engineering Ltd. <i class="fas fa-external-link-alt"></i></a></td><td><span class="tag tag-blue">Engineering / Design</span></td><td>Calgary, AB</td></tr><tr><td><a class="company-link" href="https://www.woodplc.com" target="_blank">Wood plc <i class="fas fa-external-link-alt"></i></a></td><td><span class="tag tag-blue">Engineering / Design</span></td><td>St. John's, Worldwide</td></tr><tr><td><a class="company-link" href="http://woodwards.nf.ca/" target="_blank">Woodward Group of Companies <i class="fas fa-external-link-alt"></i></a></td><td><span class="tag tag-brown">Shipping / Operations</span></td><td>Lewisporte, NL</td></tr><tr><td><a class="company-link" href="https://www.worley.com" target="_blank">Worley <i class="fas fa-external-link-alt"></i></a></td><td><span class="tag tag-blue">Engineering / Design</span></td><td>Worldwide</td></tr></tbody>
 </table>
-</div></div><div class="link-box"><h2 class="section-title"> <i class="fas fa-industry"></i> Shipyards &amp; Fabrication</h2><div class="table-container">
+</div></div>
+  
+    
+    
+    
+<!--------------------------------------------------------------------------Shipyards & Fabrication------->
+    
+    <div class="link-box"><h3> <i class="fas fa-industry"></i> Shipyards &amp; Fabrication</h3><div class="table-container">
 <table>
 <thead>
 <tr>
 <th>Facility Name</th>
-<th>Type</th>
 <th>Location</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><a class="company-link" href="https://alliedshipbuilders.com/" target="_blank">Allied Shipbuilders Ltd. <i class="fas fa-external-link-alt"></i></a></td>
-<td><span class="tag tag-green">Shipyard</span></td>
 <td>Vancouver</td>
 </tr>
 <tr>
 <td><a class="company-link" href="https://www.davie.ca/" target="_blank">Davie Shipbuilding <i class="fas fa-external-link-alt"></i></a></td>
-<td><span class="tag tag-green">Shipyard</span></td>
 <td>Lévis</td>
 </tr>
 <tr>
 <td><a class="company-link" href="https://www.glovertownshipyards.com/" target="_blank">Glovertown Shipyards Ltd. <i class="fas fa-external-link-alt"></i></a></td>
-<td><span class="tag tag-green">Shipyard</span></td>
 <td>Glovertown</td>
 </tr>
 <tr>
 <td><a class="company-link" href="https://irvingshipbuilding.com/" target="_blank">Irving - Halifax Shipyard <i class="fas fa-external-link-alt"></i></a></td>
-<td><span class="tag tag-green">Shipyard</span></td>
 <td>Halifax</td>
 </tr>
 <tr>
 <td><a class="company-link" href="https://www.kiewit.com/" target="_blank">Kiewit Offshore Services <i class="fas fa-external-link-alt"></i></a></td>
-<td><span class="tag tag-green">Fabrication</span></td>
 <td>Worldwide</td>
 </tr>
 <tr>
 <td><a class="company-link" href="http://www.newdock.nf.ca/" target="_blank">Newdock <i class="fas fa-external-link-alt"></i></a></td>
-<td><span class="tag tag-green">Repair</span></td>
 <td>St. John's</td>
 </tr>
 <tr>
 <td><a class="company-link" href="https://www.onshipyards.com/" target="_blank">Ontario Shipyards <i class="fas fa-external-link-alt"></i></a></td>
-<td><span class="tag tag-green">Shipyard</span></td>
 <td>Hamilton</td>
 </tr>
 <tr>
 <td><a class="company-link" href="https://www.seaspan.com/" target="_blank">Seaspan Marine Corporation <i class="fas fa-external-link-alt"></i></a></td>
-<td><span class="tag tag-green">Shipyard</span></td>
 <td>Vancouver / Victoria</td>
 </tr>
 <tr>
 <td><a class="company-link" href="https://www.torontodrydock.com/" target="_blank">Toronto Drydock Company <i class="fas fa-external-link-alt"></i></a></td>
-<td><span class="tag tag-green">Repair</span></td>
 <td>Toronto</td>
 </tr>
 </tbody>
-</table>
-</div></div></div>
-<!----------------------------------------------------------- Design, Engineering & Operations ------->
+</table></div>
+  
+ 
+
+
+<!-----------------------------------------------------------Resume &amp; Interview Resources------>      
+      
+      
+<div class="link-box">
+  <h3><i class="fas fa-file-alt"></i> Resume &amp; Interview Resources</h3>
+
+  <div class="link-list">
+    <a class="resource-link" href="https://careerservices.fas.harvard.edu/resources/create-a-strong-resume/" target="_blank">
+      <i class="fas fa-file"></i> Harvard University - Creating a Strong Resume</a>
+
+    <a class="resource-link" href="https://www.indeed.com/career-advice/resumes-cover-letters" target="_blank">
+      <i class="fas fa-briefcase"></i> Indeed – Resume & Cover Letters
+    </a>
+
+    <a class="resource-link" href="https://www.themuse.com/advice/interviewing" target="_blank">
+      <i class="fas fa-comments"></i> The Muse – Interview Prep
+    </a>
+
+    <a class="resource-link" href="https://novoresume.com/career-blog" target="_blank">
+      <i class="fas fa-pen"></i> Resume Examples & Templates
+    </a>
+
+    <a class="resource-link" href="https://www.linkedin.com/top-content/career/preparing-for-job-interviews/interview-prep-app-features-for-job-seekers/" target="_blank">
+      <i class="fab fa-linkedin"></i> LinkedIn Interview Prep
+    </a>
+  </div></div>
+
+ 
+<br>     
+      
+
+<!----------------------------------------------------------------AI-Assisted Job Search Strategies------>      
+      
+  
+<div class="link-box">
+  <h3><i class="fas fa-robot"></i> AI-Assisted Job Search Strategies</h3>
+
+  <div class="ai-tip">
+  <i class="fas fa-building"></i>
+  <div>
+    Use AI to <strong>summarize a company’s technical focus and culture</strong>
+    <span>
+      Ask for recent projects, vessel types, markets served, and how design,
+      production, and operations interact
+    </span>
+  </div>
 </div>
+  
+  <div class="link-list">
+    <div class="ai-tip">
+      <i class="fas fa-search"></i>
+      <div>
+        Use AI to generate <strong>advanced job search strings</strong>
+        <span>Example: “marine designer” AND (AutoCAD OR piping) AND shipyard</span>
+      </div>
+    </div>
+
+    <div class="ai-tip">
+      <i class="fas fa-filter"></i>
+      <div>
+        Paste job postings into AI to <strong>extract required skills</strong>
+        <span>Helps target resumes without rewriting everything</span>
+      </div>
+    </div>
+
+    <div class="ai-tip">
+      <i class="fas fa-list-check"></i>
+      <div>
+        Ask AI to <strong>rank jobs by fit</strong>
+        <span>Based on skills, location, and experience level</span>
+      </div>
+    </div>
+
+    <div class="ai-tip">
+      <i class="fas fa-envelope-open-text"></i>
+      <div>
+        Generate <strong>cover-letter drafts</strong>, not final versions
+        <span>AI provides structure — credibility is still yours</span>
+      </div>
+    </div>
+
+    <div class="ai-tip">
+      <i class="fas fa-comments"></i>
+      <div>
+        Practice <strong>technical interview explanations</strong>
+        <span>Especially “walk me through your design” questions</span>
+      </div>
+    </div>
+
+    <div class="ai-tip">
+      <i class="fas fa-triangle-exclamation"></i>
+      <div>
+        <strong>Do NOT submit AI text verbatim</strong>
+        <span>Generic language is an immediate red flag to recruiters</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<br>
+ 
+<!----------------------------------------------------------------What Hiring Managers Actually Look For------->     
+      
+<div class="link-box">
+  <h3><i class="fas fa-user-tie"></i> What Hiring Managers Actually Look For</h3>
+
+  <div class="link-list">
+    <div class="ai-tip">
+      <i class="fas fa-drafting-compass"></i>
+      <div>
+        Clear, readable technical drawings
+        <span>
+          Proper layers, lineweights, dimensions, and annotations matter more
+          than flashy visuals
+        </span>
+      </div>
+    </div>
+
+    <div class="ai-tip">
+      <i class="fas fa-comments"></i>
+      <div>
+        Ability to explain design decisions
+        <span>
+          Why something was routed, spaced, or supported — not just that it was drawn
+        </span>
+      </div>
+    </div>
+
+    <div class="ai-tip">
+      <i class="fas fa-book-open"></i>
+      <div>
+        Comfort reading existing drawings
+        <span>
+          Most junior work starts by modifying or interpreting legacy drawings
+        </span>
+      </div>
+    </div>
+
+    <div class="ai-tip">
+      <i class="fas fa-bolt"></i>
+      <div>
+        Evidence of learning speed
+        <span>
+          Employers expect gaps — they care how quickly you close them
+        </span>
+      </div>
+    </div>
+
+    <div class="ai-tip">
+      <i class="fas fa-envelope"></i>
+      <div>
+        Professional communication
+        <span>
+          Clear emails, responding to markups properly, and asking good questions
+        </span>
+      </div>
+    </div>
+
+    <div class="ai-tip">
+      <i class="fas fa-ship"></i>
+      <div>
+        Understanding the company’s role
+        <span>
+          Design office, shipyard, operator, or regulator — each values different skills
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+    
+   </div>
+    
+  </div> 
+
+<!----------------------------------------------------------------Minimal Pay Calculator------>      
+      
+      
+<div class="full-width-section">
+  <div class="full-width-inner">
+    <div class="calculator-panel">
+      <h3 > <i class="fas fa-calculator"></i> Minimal Pay Calculator</h3>
+
+  <p style="font-size:0.8rem; color:#64748b;">
+    Estimate the <strong>minimum annual salary</strong> required to maintain or improve your lifestyle.
+  </p>
+
+  <table style="width:100%; border-collapse:collapse; font-size:0.8rem;">
+    <thead>
+      <tr>
+        <th>Monthly Expense</th>
+        <th>Amount ($)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Accommodations</td><td><input class="calc-input" type="number" value="1200"></td></tr>
+      <tr><td>Power</td><td><input class="calc-input" type="number" value="400"></td></tr>
+      <tr><td>Cable / Internet</td><td><input class="calc-input" type="number" value="200"></td></tr>
+      <tr><td>Cell Phone</td><td><input class="calc-input" type="number" value="200"></td></tr>
+      <tr><td>Groceries</td><td><input class="calc-input" type="number" value="600"></td></tr>
+      <tr><td>Vehicle Payment and Insurance</td><td><input class="calc-input" type="number" value="300"></td></tr>
+      <tr><td>Gas / Transportation</td><td><input class="calc-input" type="number" value="200"></td></tr>
+      <tr><td>Credit Card / Loan Payments</td><td><input class="calc-input" type="number" value="0"></td></tr>
+      <tr><td><strong>Other / Amount you hope to save</strong></td><td><input class="calc-input" type="number" value="0"></td></tr>
+    </tbody>
+  </table>
+
+  <hr style="margin:15px 0;">
+
+  <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px;">
+    <label>
+      Company Deductions Rate<br>
+      <input id="deductions" type="number" step="0.01" value="1.05">
+      <div style="font-size:0.7rem; color:#64748b;">Example: 5% → 1.05</div>
+    </label>
+
+    <label>
+      Tax Rate<br>
+      <input id="taxrate" type="number" step="0.01" value="1.30">
+      <div style="font-size:0.7rem; color:#64748b;">Example: 30% → 1.30</div>
+    </label>
+  </div>
+
+  <label style="display:block; margin-top:10px;">
+    Employment Factor (% of Year Paid)
+    <input id="employmentFactor" type="number" step="0.01" value="1.00">
+    <div style="font-size:0.7rem; color:#64748b;">
+      Example: 0.85 for contract / unpaid time
+    </div>
+  </label>
+
+  <button class="btn" style="margin-top:15px;" onclick="calculatePay()">
+    Calculate Minimal Pay
+  </button>
+
+  <div id="results" style="margin-top:15px; font-size:0.8rem;"></div>
+</div>
+ </div>
+</div>
+    
+    
+
+</div>
+
+
+
+<!-------------------------------------------------------------------------------- JAVASCRIPT ------->  
+  
+  
+<script>
+  
+document.querySelectorAll('.calc-input').forEach(i => i.step = 10);  
+  
+  
+  
+function calculatePay() {
+  const inputs = document.querySelectorAll('.calc-input');
+  let monthlyTotal = 0;
+
+  inputs.forEach(input => {
+    monthlyTotal += Number(input.value) || 0;
+  });
+
+  const annualBase = monthlyTotal * 12;               // (A)
+  const deductionsRate = Number(document.getElementById('deductions').value);
+  const taxRate = Number(document.getElementById('taxrate').value);
+  const employmentFactor = Number(document.getElementById('employmentFactor').value);
+
+  const afterDeductions = annualBase * deductionsRate; // (B)
+  const afterTax = afterDeductions * taxRate;          // (C)
+  const minimalPay = afterTax / employmentFactor;
+
+  document.getElementById('results').innerHTML = `
+    <strong>Results:</strong><br>
+    Monthly Expenses: $${monthlyTotal.toFixed(2)}<br>
+    Annual Base (A): $${annualBase.toFixed(2)}<br>
+    After Deductions (B): $${afterDeductions.toFixed(2)}<br>
+    After Tax (C): $${afterTax.toFixed(2)}<br><br>
+    <strong>Minimal Required Salary:</strong> $${minimalPay.toFixed(2)}
+  `;
+}
+</script>
+
+
+
+
+
 <footer>
 <p>© 2026 Marine Designer Career Center</p>
 </footer>
